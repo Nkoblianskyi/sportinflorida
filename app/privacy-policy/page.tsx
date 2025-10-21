@@ -3,8 +3,8 @@ import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
 
 export const metadata = {
-  title: "Privacy Policy | Hard Rock Bet Florida",
-  description: "Privacy Policy for Hard Rock Bet Florida sports betting platform.",
+  title: "Privacy Policy | Sport in Florida",
+  description: "Privacy Policy for Sport in Florida sports betting platform.",
 }
 
 export default function PrivacyPolicyPage() {
@@ -66,7 +66,7 @@ export default function PrivacyPolicyPage() {
               <section className="space-y-3">
                 <h2 className="text-xl sm:text-2xl font-bold">6. Contact Us</h2>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  If you have any questions about this Privacy Policy, please contact us at privacy@betsiteinflorida.com
+                  If you have any questions about this Privacy Policy, please contact us at privacy@sportinflorida.com
                 </p>
               </section>
 
