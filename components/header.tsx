@@ -1,19 +1,23 @@
+import { Button } from "@/components/ui/button"
 import Image from "next/image"
-
+import Link from "next/link"
 export function Header() {
   return (
-    <header className="bg-black/60 text-foreground py-1.5 w-full border-b border-border fixed top-0 z-50">
-      <div className="w-full  mx-auto px-4">
-        <div className="flex items-center justify-center gap-2 sm:gap-3">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 flex items-center justify-center bg-yellow-400 p-1 rounded-full">
-              <Image src="/favicon.ico" alt="Logo" width={32} height={32} />
-            </div>
-            <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-white">
-              Sport in <span className="text-[#009639]">Florida</span>
-            </h1>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black backdrop-blur  border-b border-border shadow-sm">
+      <div className="container mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
+        <Link href="/">
+          <div className="flex items-center gap-2">
+            <Image src="/hard-rock-logo.svg" alt="Hard Rock Casino Logo" width={64} height={64} />
           </div>
-        </div>
+        </Link>
+        <Button
+          asChild
+          className="bg-primary hover:bg-primary/90 transition-colors text-sm sm:text-base px-3 sm:px-4 py-2 shadow-md text-white"
+        >
+          <a href="https://www.hardrock.bet/florida/" target="_blank" rel="noopener noreferrer">
+            Sign Up Now
+          </a>
+        </Button>
       </div>
     </header>
   )
