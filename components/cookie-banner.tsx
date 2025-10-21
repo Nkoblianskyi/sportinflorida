@@ -50,14 +50,14 @@ export function CookieBanner() {
               <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
                 <Button
                   onClick={acceptCookies}
-                  className="bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 text-white"
+                  className="bg-green-600 hover:from-purple-700 hover:to-cyan-700 text-white"
                 >
                   Accept All
                 </Button>
                 <Button
                   onClick={declineCookies}
                   variant="outline"
-                  className="border-slate-600 hover:bg-slate-800 bg-transparent"
+                  className="text-white border-slate-600 hover:bg-slate-800 bg-transparent"
                 >
                   Decline
                 </Button>
