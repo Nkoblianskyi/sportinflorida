@@ -78,7 +78,7 @@ export function Footer() {
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
               <a
                 href="https://gamblinghelp.org/"
-                className="p-4 bg-black border border-gray-200 rounded-lg hover:border-blue-400 hover:shadow-md transition-all flex items-center justify-center"
+                className="p-4 bg-white border border-gray-200 rounded-lg hover:border-blue-400 hover:shadow-md transition-all flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -178,7 +178,7 @@ export function Footer() {
               </a>
             </div>
 
-            <p className="text-sm text-gray-600">© 2025 betsiteinflorida.com. All rights reserved.</p>
+            <p className="text-sm text-gray-600">© 2025 sportinflorida.com. All rights reserved.</p>
           </div>
         </div>
       </div>

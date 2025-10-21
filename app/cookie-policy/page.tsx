@@ -3,8 +3,8 @@ import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
 
 export const metadata = {
-  title: "Cookie Policy | Hard Rock Bet Florida",
-  description: "Cookie Policy for Hard Rock Bet Florida sports betting platform.",
+  title: "Cookie Policy | Sport in Florida",
+  description: "Cookie Policy for Sport in Florida sports betting platform.",
 }
 
 export default function CookiePolicyPage() {
@@ -74,7 +74,7 @@ export default function CookiePolicyPage() {
               <section className="space-y-3">
                 <h2 className="text-xl sm:text-2xl font-bold">Contact Us</h2>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  If you have any questions about our use of cookies, please contact us at cookies@betsiteinflorida.com
+                  If you have any questions about our use of cookies, please contact us at cookies@sportinflorida.com
                 </p>
               </section>
 

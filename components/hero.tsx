@@ -25,14 +25,20 @@ export function Hero() {
 
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="max-w-5xl mx-auto text-center space-y-8">
+          <div className="inline-block">
+            <div className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-6 py-2 rounded-full text-sm md:text-base font-semibold tracking-wide shadow-lg">
+              EXCLUSIVE TO HARD ROCK BET
+            </div>
+          </div>
+
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-balance leading-tight">
-              <span className="text-white">EXPERIENCE PREMIER</span>
-              <span className="block mt-3 text-blue-600">SPORTS BETTING IN FLORIDA</span>
+              <span className="text-white">FLORIDA'S ONLY AUTHORIZED</span>
+              <span className="block mt-3 text-blue-400">ONLINE SPORTSBOOK</span>
             </h1>
             <p className="text-lg md:text-2xl text-white text-pretty max-w-3xl mx-auto leading-relaxed">
-              Join Florida's only state-authorized online sportsbook. Bet on NFL, NBA, MLB, NHL, and more with
-              competitive odds and instant payouts.
+              Experience the exclusive advantage of Florida's sole legal online sports betting platform. Wager on NFL,
+              NBA, MLB, NHL, and countless other sports with superior odds and immediate withdrawals.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -45,7 +51,6 @@ export function Hero() {
                 Get Started
               </a>
             </Button>
-
           </div>
         </div>
       </div>

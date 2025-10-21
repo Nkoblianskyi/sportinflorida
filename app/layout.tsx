@@ -16,11 +16,10 @@ const robotoMono = Roboto_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Hard Rock Bet Florida | Legal Sports Betting in FL",
+  title: "Sport in Florida | Legal Sports Betting in FL",
   description:
-    "Experience premium sports betting in Florida with Hard Rock Bet. Bet on NFL, NBA, MLB, NHL, and more. Exclusive welcome bonus: Bet $5, Get $150 in bonus bets. The only legal online sportsbook in Florida.",
+    "Experience premium sports betting in Florida. Bet on NFL, NBA, MLB, NHL, and more. Exclusive welcome bonus: Bet $5, Get $150 in bonus bets. Legal online sportsbook in Florida.",
   keywords: [
-    "Hard Rock Bet",
     "Florida sports betting",
     "legal sports betting Florida",
     "NFL betting",
@@ -31,11 +30,13 @@ export const metadata: Metadata = {
     "sports betting bonus",
   ],
   openGraph: {
-    title: "Hard Rock Bet Florida | Legal Sports Betting",
+    title: "Sport in Florida | Legal Sports Betting",
     description:
-      "The only legal online sportsbook in Florida. Bet on your favorite sports with competitive odds and instant payouts.",
+      "Legal online sportsbook in Florida. Bet on your favorite sports with competitive odds and instant payouts.",
     type: "website",
+    url: "https://sportinflorida.com",
   },
+  metadataBase: new URL("https://sportinflorida.com"),
 }
 
 export default function RootLayout({
